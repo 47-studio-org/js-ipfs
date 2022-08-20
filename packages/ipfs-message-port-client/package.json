@@ -40,9 +40,9 @@
     "ipfs-unixfs": "^4.0.3"
   },
   "devDependencies": {
-    "aegir": "^33.0.0",
-    "interface-ipfs-core": "^0.146.1",
-    "ipfs-core": "^0.7.1",
+    "aegir": "^36.2.3",
+    "interface-ipfs-core": "^0.153.0",
+    "ipfs-core": "^0.15.0",
     "ipfs-message-port-server": "^0.7.2",
     "rimraf": "^3.0.2"
   },
