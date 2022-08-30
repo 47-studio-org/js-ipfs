@@ -48,7 +48,7 @@
     "multiaddr": "^9.0.1"
   },
   "devDependencies": {
-    "aegir": "^33.0.0",
+    "aegir": "^37.5.2",
     "node-fetch": "npm:@achingbrain/node-fetch@^2.6.4",
     "ws": "^7.3.1"
   },
