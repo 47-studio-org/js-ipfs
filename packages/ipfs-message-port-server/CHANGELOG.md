@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.15.1](https://www.github.com/ipfs/js-ipfs/compare/ipfs-message-port-server-v0.15.0...ipfs-message-port-server-v0.15.1) (2023-05-25)
+
+
+### Bug Fixes
+
+* add deprecation notice to readmes ([#4362](https://www.github.com/ipfs/js-ipfs/issues/4362)) ([7b79c1b](https://www.github.com/ipfs/js-ipfs/commit/7b79c1b8df5c818dc124b346ea28330455732d5c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * ipfs-core-types bumped from ^0.14.0 to ^0.14.1
+    * ipfs-message-port-protocol bumped from ^0.15.0 to ^0.15.1
+
+## [0.15.0](https://www.github.com/ipfs/js-ipfs/compare/ipfs-message-port-server-v0.14.0...ipfs-message-port-server-v0.15.0) (2023-01-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update multiformats to v11.x.x and related depenendcies (#4277)
+
+### Bug Fixes
+
+* update multiformats to v11.x.x and related depenendcies ([#4277](https://www.github.com/ipfs/js-ipfs/issues/4277)) ([521c84a](https://www.github.com/ipfs/js-ipfs/commit/521c84a958b04d61702577a5adce28519c1b2a3b))
+* use aegir to publish RCs ([#4284](https://www.github.com/ipfs/js-ipfs/issues/4284)) ([6d90cbf](https://www.github.com/ipfs/js-ipfs/commit/6d90cbf321a7dbf4b1084ba20f0c514dc08d8d0a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * ipfs-core-types bumped from ^0.13.0 to ^0.14.0
+    * ipfs-message-port-protocol bumped from ^0.14.0 to ^0.15.0
+
 ## [0.14.0](https://www.github.com/ipfs/js-ipfs/compare/ipfs-message-port-server-v0.13.1...ipfs-message-port-server-v0.14.0) (2022-10-24)
 
 

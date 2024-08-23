@@ -1,6 +1,6 @@
 {
   "name": "ipfs-core-types",
-  "version": "0.13.0",
+  "version": "0.14.1",
   "description": "IPFS interface definitions used by implementations for API compatibility.",
   "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/ipfs/js-ipfs/tree/master/packages/ipfs-core-types#readme",
@@ -25,7 +25,7 @@
   "types": "./dist/src/index.d.ts",
   "files": [
     "src",
-    "dist/src",
+    "dist",
     "!dist/test",
     "!**/*.tsbuildinfo"
   ],
@@ -47,18 +47,18 @@
     "build": "aegir build"
   },
   "dependencies": {
-    "@ipld/dag-pb": "^3.0.0",
-    "@libp2p/interface-keychain": "^1.0.3",
-    "@libp2p/interface-peer-id": "^1.0.4",
+    "@ipld/dag-pb": "^4.0.0",
+    "@libp2p/interface-keychain": "^2.0.0",
+    "@libp2p/interface-peer-id": "^2.0.0",
     "@libp2p/interface-peer-info": "^1.0.2",
     "@libp2p/interface-pubsub": "^3.0.0",
-    "@multiformats/multiaddr": "^11.0.0",
+    "@multiformats/multiaddr": "^11.1.5",
     "@types/node": "^18.0.0",
     "interface-datastore": "^7.0.0",
-    "ipfs-unixfs": "^8.0.0",
-    "multiformats": "^10.0.0"
+    "ipfs-unixfs": "^9.0.0",
+    "multiformats": "^11.0.0"
   },
   "devDependencies": {
-    "aegir": "^37.0.11"
+    "aegir": "^37.11.0"
   }
 }

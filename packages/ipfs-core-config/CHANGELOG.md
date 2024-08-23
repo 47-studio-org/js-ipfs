@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.7.1](https://www.github.com/ipfs/js-ipfs/compare/ipfs-core-config-v0.7.0...ipfs-core-config-v0.7.1) (2023-05-25)
+
+
+### Bug Fixes
+
+* add deprecation notice to readmes ([#4362](https://www.github.com/ipfs/js-ipfs/issues/4362)) ([7b79c1b](https://www.github.com/ipfs/js-ipfs/commit/7b79c1b8df5c818dc124b346ea28330455732d5c))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * ipfs-core-utils bumped from ^0.18.0 to ^0.18.1
+
+## [0.7.0](https://www.github.com/ipfs/js-ipfs/compare/ipfs-core-config-v0.6.0...ipfs-core-config-v0.7.0) (2023-01-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update multiformats to v11.x.x and related depenendcies (#4277)
+
+### Bug Fixes
+
+* disallow publishing pubsub messages to zero peers ([#4286](https://www.github.com/ipfs/js-ipfs/issues/4286)) ([fa578ba](https://www.github.com/ipfs/js-ipfs/commit/fa578bace93e459849a0ffcebbd6f222dc05652d))
+* update multiformats to v11.x.x and related depenendcies ([#4277](https://www.github.com/ipfs/js-ipfs/issues/4277)) ([521c84a](https://www.github.com/ipfs/js-ipfs/commit/521c84a958b04d61702577a5adce28519c1b2a3b))
+* use aegir to publish RCs ([#4284](https://www.github.com/ipfs/js-ipfs/issues/4284)) ([6d90cbf](https://www.github.com/ipfs/js-ipfs/commit/6d90cbf321a7dbf4b1084ba20f0c514dc08d8d0a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * ipfs-core-utils bumped from ^0.17.0 to ^0.18.0
+
 ## [0.6.0](https://www.github.com/ipfs/js-ipfs/compare/ipfs-core-config-v0.5.1...ipfs-core-config-v0.6.0) (2022-10-24)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "ipfs-http-response",
-  "version": "5.0.0",
+  "version": "6.0.1",
   "description": "Creates an HTTP response from an IPFS Hash",
   "author": "Vasco Santos <vasco.santos@moxy.studio>",
   "license": "Apache-2.0 OR MIT",
@@ -66,11 +66,10 @@
     "dep-check": "aegir dep-check -i global"
   },
   "dependencies": {
-    "@libp2p/logger": "^2.0.0",
+    "@libp2p/logger": "^2.0.5",
     "ejs": "^3.1.6",
     "file-type": "^18.0.0",
     "filesize": "^10.0.5",
-    "it-concat": "^3.0.1",
     "it-map": "^2.0.0",
     "it-reader": "^6.0.1",
     "it-to-stream": "^1.0.0",
@@ -80,10 +79,10 @@
   "devDependencies": {
     "@types/ejs": "^3.1.0",
     "@types/mime-types": "^2.1.1",
-    "aegir": "^37.0.11",
+    "aegir": "^37.11.0",
     "get-stream": "^6.0.0",
-    "ipfs-core": "^0.17.0",
-    "ipfsd-ctl": "^12.0.3",
+    "ipfs-core": "^0.18.1",
+    "ipfsd-ctl": "^13.0.0",
     "it-all": "^2.0.0",
     "uint8arrays": "^4.0.2"
   },
